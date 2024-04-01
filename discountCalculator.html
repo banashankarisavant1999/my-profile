@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 50px;
+            padding: 3%;;
+        }
+
+        legend{
+            padding: 20px,0;
+            font-size: 20px;
+        }
+
+label{
+            font-size: smaller;
+            color: cadetblue;
+           
+        }
+        input[type="text"]{
+            
+            text-decoration-color: cadetblue;
+            color: cadetblue;
+        }
+        
+        
+        button,class,type[type="submit"]:hover{
+       color:burlywood(183, 122, 8);
+       
+        background-color: #27aa2c;
+      }
+   .container{
+    
+    box-shadow: 0 6px 8px;
+
+   }
+
+      
+      
+
+    </style>
+
+    
+</head>
+<body>
+    <form name="discountCalculator" >
+        <fieldset>
+        <div class ="container">
+            <h1>Discount Calculator
+                <span>Enter the Bill amount and discount in percentage</span>
+            </h1>
+        <div>
+        <div class="input-control">
+            <label for="">Bill Amount <input type="text" id="bill number" placeholder="55555" autofocus>
+            </label>
+        </div>
+
+        <div class="input-control">
+            <label for="">Discount Percentage<input type="text" id="discount percantege" placeholder="10" autofocus>
+            </label>
+        </div>
+
+            </div>
+                
+                <div class="input-control button">
+                    <button id="calculate">Calculate</button><br>
+                    <span id="total discount amount">Total Discount Calculator</span>
+                    
+                </div>
+            
+            </div>
+    </fieldset>
+        </form>
+
+    
+        
+</body>
+</html>
